@@ -1,3 +1,16 @@
+# UserList_Location
+## Description 
+  This application takes data from API and receives list of 10 random users. There is possibility to click on any the appended users and get more details like: address and location. There are added more API as: React leaflet and leaflet. Thanks of them app can presents location of choosen user.
+  
+# needed installation
+  npm install sass
+  npm install leaflet
+  npm react-leaflet
+
+there are attached technical documentations of these API:
+  https://leafletjs.com/reference-1.7.1.html#map-example
+  https://react-leaflet.js.org/docs/start-installation/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +81,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+ -------
+ 
+ 
+ …or create a new repository on the command line
+echo "# UsersList_Location" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lukasz-Lipinski/UsersList_Location.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Lukasz-Lipinski/UsersList_Location.git
+git branch -M main
+git push -u origin main
