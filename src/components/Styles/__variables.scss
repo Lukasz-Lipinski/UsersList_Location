@@ -1,0 +1,15 @@
+$theme: #eceff1;
+$primary-color-light: #ffcd38;
+$primary-color: #ffc107;
+$primary-color-dark: #b28704;
+$secondary-color-light: #ff4569;
+$secondary-color: #ff1744;
+$secondary-color-dark: #b2102f;
+$white: #fff;
+$black: #000;
+
+
+@mixin boxShadow($saturation: 0px, $blur ,$color: gray, $time) {
+  box-shadow: 0px 2px $blur $saturation $color;
+  transition: box-Shadow $time;
+}
