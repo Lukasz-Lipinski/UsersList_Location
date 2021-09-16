@@ -24,7 +24,7 @@ a {
     border-radius: 10px;
     background-color: $theme;
     @include boxShadow(2px, 10px, darkgrey, 0s);
-    
+
       &__btn {
         margin: 15px 15px 0 0;
         display: flex;
@@ -48,11 +48,11 @@ a {
           @include boxShadow(0px, 4px, gray, 0.1s);
         }
       }
-        
+
       &--body {
         padding: 0 15px 15px 15px;
         font-size: 22px;
-        
+
         &__data {
           margin: 0 auto 0 auto;
           padding-block: 6px;
@@ -65,7 +65,7 @@ a {
           margin-top: 15px;
         }
       }
-    } 
+    }
 
   .card {
     display: flex;
@@ -111,7 +111,7 @@ a {
             }
           }
         }
-      } 
+      }
     }
 
   .card:hover {
